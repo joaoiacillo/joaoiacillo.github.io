@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>João Iacillo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on João Iacillo</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Sat, 29 Jun 2024 03:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Umotos - Mobile Web App</title>
+      <link>http://localhost:1313/projects/umotos/</link>
+      <pubDate>Sat, 29 Jun 2024 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/umotos/</guid>
+      <description>Aplicativo Web para celulares e computadores criado com Bootstrap. Plataforma de entregas mobile-first.&#xA;Fotos </description>
+    </item>
+    <item>
+      <title>Legacy Leilões</title>
+      <link>http://localhost:1313/projects/legacy-leiloes/</link>
+      <pubDate>Tue, 02 Apr 2024 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/legacy-leiloes/</guid>
+      <description>Conjunto de páginas criadas para a Legacy Leilões. Apresenta diversos componentes complexos e mistos para a criação de um ambiente completo, além de ser responsivo.</description>
+    </item>
+    <item>
+      <title>Landing Page - Legacy Leilões</title>
+      <link>http://localhost:1313/projects/legacy-leiloes-lp/</link>
+      <pubDate>Tue, 26 Mar 2024 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/legacy-leiloes-lp/</guid>
+      <description>Landing page criada para a empresa Legacy Leilões. Apresentando múltiplas seções com layouts e designs distintos, além de ser responsiva, bem otimizada e possuir animações simples que enchem a página.</description>
+    </item>
+    <item>
+      <title>Portfolio Purple Marketing</title>
+      <link>http://localhost:1313/projects/portfolio-purple-marketing/</link>
+      <pubDate>Thu, 28 Sep 2023 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/portfolio-purple-marketing/</guid>
+      <description>Portfolio criado para uma parente. O website é simples, direto e todas as imagens foram otimizadas para uma melhor experiência de usuário. É responsivo e todas as imagens podem ser &amp;ldquo;abertas&amp;rdquo; para uma melhor visualização.</description>
+    </item>
+    <item>
+      <title>Alura Desafio 7 Dias de HTML e CSS</title>
+      <link>http://localhost:1313/projects/alura-7days-html-css/</link>
+      <pubDate>Wed, 26 Apr 2023 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/alura-7days-html-css/</guid>
+      <description>Projeto simples realizado a muito tempo para praticar canvas e JavaScript. Ele possui um sistema bem básico de movimentação e &amp;ldquo;física&amp;rdquo; se puder chamar assim.&#xA;Um de seus principais defeitos é a inexistente randomização que o pad aplica sobre a bola, ou seja, os ângulos de direção sempre são os mesmos.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/index-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/index-about/</guid>
+      <description>$ bash ./joaoiacillo.sh &amp;raquo; Olá_Mundo! Eu sou um programador web que gosta de experimentar e ir atrás de novas ideias e projetos. Não me contento com uma única área, por isso exploro várias, mas sempre mantenho meu pé firme no front-end, que é de fato minha paixão.&#xA;Este é o meu portfolio principal! Aqui você pode ver meus projetos e acessá-los. Eu estou no processo de criar um outro website, um espaço pessoal meu para guardar minhas postagens de blog e outros conteúdos.</description>
+    </item>
+    <item>
+      <title>Small Web</title>
+      <link>http://localhost:1313/smallweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/smallweb/</guid>
+      <description>Ah! Então você se interessa por Small Web ou apenas está curioso para saber o que é isso? Eu estou com você, eu sou uma mescla das duas coisas. :D&#xA;Meu plano é ter este website como portfolio principal, mas manter minhas postagens e conteúdos em um outro lugar mais reservado, mais particular, mais voltado para mim, e não para os outros.&#xA;Mesmo sendo uma espécie de blog, e estando disponivel para qualquer um poder ler, ele será uma extensão da minha pessoa, e qualquer um lendo poderá saber mais sobre mim, o que eu faço, o que eu penso e o que planejo fazer.</description>
+    </item>
+  </channel>
+</rss>

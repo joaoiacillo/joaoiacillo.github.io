@@ -1,0 +1,69 @@
+baseURL = 'http://joaoiacillo.github.io/'
+defaultContentLanguage = 'pt'
+languageCode = 'pt-BR'
+title = 'João Iacillo'
+theme= 'gokarna'
+
+[params]
+
+    CustomHeadHTML = """
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/custom.css" />
+    """
+
+    CustomFooterHTML = """
+    <script src="/js/custom.js"></script>
+    <div style="margin-bottom: 16px; font-size: 0.75rem;">
+        <a href="/projects/">Veja meus Projetos</a> |
+        <a href="/contact/">Entre em Contato</a>
+    </div>
+    """
+
+    socialIcons = [
+      {name = "github", url = "https://github.com/joaoiacillo/"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/joaoiacillo/"},
+      {name = "rss", url = "https://dev.to/iacillodev/"}
+    ]
+
+[markup]
+    [markup.tableOfContents]
+        startLevel = 1
+        endLevel = 3
+        ordered = false
+
+[menus]
+    # Main Menu
+    [[menus.main]]
+        name = 'Início'
+        pageRef = '/'
+        weight = 10
+        # pre = '<i class="bi bi-house"></i>'
+    # [[menus.main]]
+    #     name = 'Currículo'
+    #     pageRef = '/resume'
+    #     weight = 15
+    #     pre = '<i class="bi bi-paperclip" style="transform: rotate(45deg)"></i>'
+    [[menus.main]]
+        name = 'Projetos'
+        pageRef = '/projects'
+        weight = 20
+        # pre = '<i class="bi bi-code-slash"></i>'
+    [[menus.main]]
+        name = 'Smallweb'
+        pageRef = '/smallweb'
+        weight = 25
+        pre = '<i class="bi bi-cone-striped"></i>'
+    [[menus.main]]
+        name = 'Dev.to'
+        url = 'https://dev.to/iacillodev'
+        weight = 30
+        pre = '<i class="bi bi-box-arrow-up-right"></i>'
+    [[menus.main]]
+        name = 'Contato'
+        pageRef = '/contact'
+        weight = 40
+        pre = '<i class="bi bi-telephone"></i>'

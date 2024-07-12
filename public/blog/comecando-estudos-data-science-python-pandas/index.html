@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Comecando nos Estudos de Data Science com Python e Pandas</title>
+    <meta name="description" content="">
+    <meta name="keywords" content='datascience, python, pandas, programming'>
+
+    <meta property="og:url" content="http://localhost:1313/blog/comecando-estudos-data-science-python-pandas/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Comecando nos Estudos de Data Science com Python e Pandas">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3jwl68v07ulkbumaqaur.png">
+    <meta property="og:image:secure_url" content="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3jwl68v07ulkbumaqaur.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Comecando nos Estudos de Data Science com Python e Pandas">
+    <meta name="twitter:description" content="">
+    <meta property="twitter:domain" content="http://localhost:1313/blog/comecando-estudos-data-science-python-pandas/">
+    <meta property="twitter:url" content="http://localhost:1313/blog/comecando-estudos-data-science-python-pandas/">
+    <meta name="twitter:image" content="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3jwl68v07ulkbumaqaur.png">
+
+    
+    <link rel="canonical" href="http://localhost:1313/blog/comecando-estudos-data-science-python-pandas/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.9a920d7dabdbad8363b6a0a94e29a9dfebdb7ee64cfcb193a0145e512ef2bdab.js" integrity="sha256-mpINfavbrYNjtqCpTimp3&#43;vbfuZM/LGToBReUS7yvas="></script>
+
+    
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+
+        <div class="nav-title">
+            
+                <a class="nav-brand" href="http://localhost:1313/">João Iacillo</a>
+            
+        </div>
+
+        <div class="nav-links">
+            
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/"> Início </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/projects/"> Projetos </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="https://dev.to/iacillodev"><i class="bi bi-box-arrow-up-right"></i> Dev.to </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/"> Smallweb </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/contact/"> Contato </a>
+    
+</div>
+
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/"> Início </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/projects/"> Projetos </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://dev.to/iacillodev"><i class="bi bi-box-arrow-up-right"></i> Dev.to </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/"> Smallweb </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/contact/"> Contato </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        
+            <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3jwl68v07ulkbumaqaur.png" class="post-banner" />
+        
+        <h1>Comecando nos Estudos de Data Science com Python e Pandas</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">novembro 24, 2023
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/datascience">datascience</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/python">python</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/pandas">pandas</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/programming">programming</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <div class="post-actions">
+            
+                <a href="https://dev.to/iacillodev/comecando-nos-estudos-de-data-science-com-python-e-pandas-3hl0">
+                    <i class="bi bi-box-arrow-up-right"></i> Dev.to
+                </a>
+            
+            
+            
+        </div>
+
+        <p>Entrar no universo de data science vem se tornando cada vez fácil. Isto pois há uma crescente implementação neste mercado de bibliotecas e linguagens de alto-nível, como o Pandas e o Python, para que a manipulação de um alto número de dados não se torne uma tarefa complicada.</p>
+<hr>
+<h2 id="introdução">Introdução</h2>
+<p>Como um programador web venho dedicando meu tempo ao estudo de tecnologias relacionadas a front-end. No entanto, percebi que uma das linguagens que me introduziram à programação estava empoeirada na minha estante, o Python. Havia um bom tempo desde que eu sequer toquei nela novamente, e isso me incomodou.</p>
+<p>Foi conhecendo o data science, através de um programa de estudos que utilizava o Python e o Pandas, que eu decidi desempoeirar a coitada e abraçar uma nova jornada na minha vida. Este artigo contêm o meu aprendizado até o momento sobre a biblioteca.</p>
+<h2 id="entendendo-a-biblioteca-pandas">Entendendo a Biblioteca Pandas</h2>
+<p>O Pandas foi uma biblioteca originalmente criada para fins internos à uma empresa, mas que com o tempo, foi se tornando parte da comunidade open-source, e hoje possui a contribuição de muitos desenvolvedores ao redor do mundo para sua evolução.</p>
+<p>Seu principal objetivo é trabalhar com informações, sejam tabuladas ou em sequência (em tabela ou em lista). Além de apresentar poderosas ferramentas e integrações com outras bibliotecas que compõem o universo do data science no Python.</p>
+<p>Seus dois tipos de estruturas mais comuns são o <code>DataFrame</code> e a <code>Series</code>, que apesar de possuirem a função em comum de armazenar dados, são manuseados de formas diferentes, e um depende do outro para coexistirem.</p>
+<h2 id="estruturas-de-dados">Estruturas de Dados</h2>
+<h3 id="dataframes">DataFrames</h3>
+<p>Sendo uma estrutura tabulada, o <code>DataFrame</code> armazena os dados de forma parecida com o Excel ou CSV, atribuindo à uma matriz de duas dimensões linhas e colunas, que quando em conjunto, apontam para uma única célula de informação.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Coluna</th>
+<th>Coluna</th>
+<th>Coluna</th>
+<th>Coluna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Linha</strong></td>
+<td>Célula</td>
+<td>Célula</td>
+<td>Célula</td>
+<td>Célula</td>
+</tr>
+<tr>
+<td><strong>Linha</strong></td>
+<td>Célula</td>
+<td>Célula</td>
+<td>Célula</td>
+<td>Célula</td>
+</tr>
+<tr>
+<td><strong>Linha</strong></td>
+<td>Célula</td>
+<td>Célula</td>
+<td>Célula</td>
+<td>Célula</td>
+</tr>
+</tbody>
+</table>
+<p>Sua criação pode ser realizada através de listas, dicionários, arrays do Numpy, ou outro DataFrame. Para a leitura de arquivos, o Pandas possui funções auxiliares que possuem o nome seguindo o formato <code>read_T()</code>, sendo <code>T</code> o tipo do arquivo, como por exemplo csv (<code>read_csv()</code>); html (<code>read_html()</code>); excel (<code>read_excel()</code>); etc.</p>
+<p>Utilizarei abaixo dois exemplos que aprendi durante meus estudos, um dataset sobre carros: (1) escrito manualmente como lista; (2) lido de um arquivo CSV:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Definição dos dados</span>
+</span></span><span style="display:flex;"><span>dados <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>    {<span style="color:#e6db74">&#39;Nome&#39;</span>: <span style="color:#e6db74">&#39;Jetta Variant&#39;</span>, <span style="color:#e6db74">&#39;Motor&#39;</span>: <span style="color:#e6db74">&#39;Motor 4.0 Turbo&#39;</span>, <span style="color:#e6db74">&#39;Ano&#39;</span>: <span style="color:#ae81ff">2003</span>, <span style="color:#e6db74">&#39;Quilometragem&#39;</span>: <span style="color:#ae81ff">44410.0</span>, <span style="color:#e6db74">&#39;Zero_km&#39;</span>: <span style="color:#66d9ef">False</span>, <span style="color:#e6db74">&#39;Valor&#39;</span>: <span style="color:#ae81ff">88078.64</span>},
+</span></span><span style="display:flex;"><span>    {<span style="color:#e6db74">&#39;Nome&#39;</span>: <span style="color:#e6db74">&#39;Passat&#39;</span>, <span style="color:#e6db74">&#39;Motor&#39;</span>: <span style="color:#e6db74">&#39;Motor Diesel&#39;</span>, <span style="color:#e6db74">&#39;Ano&#39;</span>: <span style="color:#ae81ff">1991</span>, <span style="color:#e6db74">&#39;Quilometragem&#39;</span>: <span style="color:#ae81ff">5712.0</span>, <span style="color:#e6db74">&#39;Zero_km&#39;</span>: <span style="color:#66d9ef">False</span>, <span style="color:#e6db74">&#39;Valor&#39;</span>: <span style="color:#ae81ff">106161.94</span>},
+</span></span><span style="display:flex;"><span>    {<span style="color:#e6db74">&#39;Nome&#39;</span>: <span style="color:#e6db74">&#39;Crossfox&#39;</span>, <span style="color:#e6db74">&#39;Motor&#39;</span>: <span style="color:#e6db74">&#39;Motor Diesel V8&#39;</span>, <span style="color:#e6db74">&#39;Ano&#39;</span>: <span style="color:#ae81ff">1990</span>, <span style="color:#e6db74">&#39;Quilometragem&#39;</span>: <span style="color:#ae81ff">37123.0</span>, <span style="color:#e6db74">&#39;Zero_km&#39;</span>: <span style="color:#66d9ef">False</span>, <span style="color:#e6db74">&#39;Valor&#39;</span>: <span style="color:#ae81ff">72832.16</span>}
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dataframe <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame(dados)
+</span></span><span style="display:flex;"><span>dataframe
+</span></span></code></pre></div><p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/85ztsq2kj9mft1uhy4mv.png" alt="table-data"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Leitura do arquivo CSV</span>
+</span></span><span style="display:flex;"><span>carros <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;db.csv&#39;</span>, sep<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;;&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Nome&#39;</span>)
+</span></span><span style="display:flex;"><span>carros
+</span></span></code></pre></div><p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xwh7xlurw8e1xjdlruob.png" alt="table-data"></p>
+<p>Como é possivel ver, ambos os casos trazem as mesmas colunas, porém com quantidades diferentes de linhas. Por conter muitas linhas no arquivo, o <em>display</em> da tabela encurta a quantidade para apenas 10, que é o padrão.</p>
+<h3 id="series">Series</h3>
+<p>As <code>Series</code> são sequencias de dados e possuem uma estrutura similar a uma lista no Python. Elas podem ser criadas a partir de uma lista, um dicionário, ou array do Numpy.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>carros <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Jetta Variant&#39;</span>, <span style="color:#e6db74">&#39;Passat&#39;</span>, <span style="color:#e6db74">&#39;Crossfox&#39;</span>]
+</span></span><span style="display:flex;"><span>pd<span style="color:#f92672">.</span>Series(carros)
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>Índice</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Jetta Variant</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Passat</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Crossfox</td>
+</tr>
+<tr>
+<td>dtype: object</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="querying">Querying</h2>
+<p>Uma das ferramentas poderosas de um <code>DataFrame</code> é sua habilidade de executar <em>queries</em> (pesquisas) em cima dos dados. O retorno de uma query pode tanto ser uma cópia do <code>DataFrame</code> que possui apenas os valores requeridos, ou uma <code>Series</code> de índice ou booleana.</p>
+<p>As queries podem ser realizadas tanto dentro de colchetes (<code>[]</code>) após o nome do <code>DataFrame</code>, quando usando o método <code>query()</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Usando colchetes</span>
+</span></span><span style="display:flex;"><span>dataframe[dataframe<span style="color:#f92672">.</span>ColumnName <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;VALOR&#34;</span>]
+</span></span><span style="display:flex;"><span>dataframe[dataframe[<span style="color:#e6db74">&#39;ColumnName&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;Valor&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Usando query()</span>
+</span></span><span style="display:flex;"><span>dataframe<span style="color:#f92672">.</span>query(<span style="color:#e6db74">&#39;ColumnName == &#34;Valor&#34;&#39;</span>)
+</span></span></code></pre></div><p>A razão de utilizar uma ou outra é meramente sintática, isto pois o <em>query</em> por colchetes possui uma estrutura não muito convencional no Python e pode ser considerada complicada. Já o <code>query()</code> utiliza a sintáxe própria do Python para realizar as buscas, então é uma alternativa mais amigável:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df[(df<span style="color:#f92672">.</span>IsActive <span style="color:#f92672">==</span> <span style="color:#66d9ef">True</span>) <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>Name<span style="color:#f92672">.</span>str<span style="color:#f92672">.</span>startswith(<span style="color:#e6db74">&#34;Nicholas&#34;</span>))]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>df<span style="color:#f92672">.</span>query(<span style="color:#e6db74">&#39;IsActive == True and Name.str.startswith(&#34;Nicholas&#34;)&#39;</span>)
+</span></span></code></pre></div><h2 id="conclusão">Conclusão</h2>
+<p>O Pandas é uma biblioteca muito poderosa e que abrange diversas ferramentas úteis para manipulação de dados. Sua integração direta com o Numpy permite aos cientistas de dados realizarem suas operações muito mais facilmente.</p>
+<p>Como podem ver, estou ainda no começo e pretendo continuar estudando mais sobre essa área para agregar aos meus projetos. Dados são importantes hoje em dia, e é util aprender a manusea-los quando necessário.</p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#introdução">Introdução</a></li>
+        <li><a href="#entendendo-a-biblioteca-pandas">Entendendo a Biblioteca Pandas</a></li>
+        <li><a href="#estruturas-de-dados">Estruturas de Dados</a>
+          <ul>
+            <li><a href="#dataframes">DataFrames</a></li>
+            <li><a href="#series">Series</a></li>
+          </ul>
+        </li>
+        <li><a href="#querying">Querying</a></li>
+        <li><a href="#conclusão">Conclusão</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+    
+
+        </main><footer class="footer">
+    
+    
+        <script src="/js/custom.js"></script>
+    <div style="margin-bottom: 16px; font-size: 0.75rem;">
+        <a href="/projects/">Veja meus Projetos</a> |
+        <a href="/contact/">Entre em Contato</a>
+    </div>
+    
+    
+
+    
+    <span>
+        Feito com &#10084;&#65039; usando <img src="/imgs/hugo.png" style="vertical-align: middle;" ><br style="margin-bottom: 12px;">Tema: <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

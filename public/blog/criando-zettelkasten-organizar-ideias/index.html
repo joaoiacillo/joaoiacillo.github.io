@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Criando um Zettelkasten para organizar suas ideias</title>
+    <meta name="description" content="">
+    <meta name="keywords" content='productivity, learning, beginners'>
+
+    <meta property="og:url" content="http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Criando um Zettelkasten para organizar suas ideias">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg3geeturw6kltrtka93a.png">
+    <meta property="og:image:secure_url" content="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg3geeturw6kltrtka93a.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Criando um Zettelkasten para organizar suas ideias">
+    <meta name="twitter:description" content="">
+    <meta property="twitter:domain" content="http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/">
+    <meta property="twitter:url" content="http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/">
+    <meta name="twitter:image" content="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg3geeturw6kltrtka93a.png">
+
+    
+    <link rel="canonical" href="http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.9a920d7dabdbad8363b6a0a94e29a9dfebdb7ee64cfcb193a0145e512ef2bdab.js" integrity="sha256-mpINfavbrYNjtqCpTimp3&#43;vbfuZM/LGToBReUS7yvas="></script>
+
+    
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+
+        <div class="nav-title">
+            
+                <a class="nav-brand" href="http://localhost:1313/">João Iacillo</a>
+            
+        </div>
+
+        <div class="nav-links">
+            
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/"> Início </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/projects/"> Projetos </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="https://dev.to/iacillodev"><i class="bi bi-box-arrow-up-right"></i> Dev.to </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/"> Smallweb </a>
+    
+</div>
+
+<div class="nav-link">
+    
+        <a href="http://localhost:1313/contact/"> Contato </a>
+    
+</div>
+
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/"> Início </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/projects/"> Projetos </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://dev.to/iacillodev"><i class="bi bi-box-arrow-up-right"></i> Dev.to </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/"> Smallweb </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/contact/"> Contato </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        
+            <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg3geeturw6kltrtka93a.png" class="post-banner" />
+        
+        <h1>Criando um Zettelkasten para organizar suas ideias</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">dezembro 12, 2023
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/productivity">productivity</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/learning">learning</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/beginners">beginners</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <div class="post-actions">
+            
+                <a href="https://dev.to/iacillodev/criando-um-zettelkasten-para-organizar-suas-ideias-46fk">
+                    <i class="bi bi-box-arrow-up-right"></i> Dev.to
+                </a>
+            
+            
+            
+        </div>
+
+        <p>Todos sabemos que hoje em dia estamos rodeados por uma imensa carga de informações. O problema disso? Nosso cérebro ainda não é capaz de armazenar tudo o que vemos diariamente, e isto pode levar a perda de ideias cruciais e criativas. Então, como podemos resolver isso? O <em>Zettelkasten</em> trás uma solução.</p>
+<hr>
+<h2 id="introdução">Introdução</h2>
+<p>Como eu mencionei acima, vivemos em um mundo onde somos bombardeados constantemente pela enorme diversidade de conteúdos, que muitas das vezes não trazem vantagens para nossas vidas.</p>
+<p>Por sorte, nossos cérebros têm a fantástica capacidade de <strong>esquecer</strong> para não lidar com esse excesso. Porém, é preciso fazer um certo esforço para que nossos &ldquo;computadores biológicos&rdquo; de fato guardem as informações mais importantes. E sejamos sinceros, é um sufoco.</p>
+<p>É muito improvável que nós lembremos de tudo o que queremos ou julgamos importante; o cérebro simplesmente não funciona dessa forma. Por isso, precisamos <strong>escrever</strong> e <strong>guardar</strong> nossas ideias para que possamos acessá-las no futuro. E é nisso que o <em>Zettelkasten</em> pode dar uma mãozinha.</p>
+<p>Quer saber como? Chega mais.</p>
+<!-- raw HTML omitted -->
+<h2 id="o-que-esperar-deste-artigo">O que esperar deste artigo?</h2>
+<p>Antes de introduzir ao <em>Zettelksten</em>, gostaria de deixar claro que ainda estou aprendendo. O problema é que é muito difícil encontrar bons recursos em Português relacionados a este assunto, e essa é minha motivação para escrever este artigo.</p>
+<p>Diferentemente dos outros artigos e vídeos, não estou aqui para definir esse <strong>sistema</strong> como algo fixo e de estrutura única apenas. <strong>Cada pessoa é única</strong>, e portanto cada <em>Zettelkasten</em> é unico. O importante é explorar o que funciona mais para você.</p>
+<p>Neste artigo irei sim apresentar o meu sistema e explicarei sobre <strong>como</strong> eu cheguei nessa solução, porém não recomendo que copiem minha estrutura, já que ela funciona para <strong>mim</strong> e pode <strong>não funcionar para você.</strong></p>
+<h2 id="apresentando-o-sistema-zettelkasten">Apresentando o sistema Zettelkasten</h2>
+<p>O <em>Zettelkasten</em> é composto por várias partes fundamentais que juntas formam uma grande teia de anotações que se referem umas as outras: notas, tags, referências, clusters, etc.</p>
+<p>Imagine ele como uma grande caixa que guarda um monte de notas, desde receitas de cozinha, até fórmulas matemáticas complexas ou snippets de código úteis para o futuro.</p>
+<p>A principal habilidade que vêm ao manusear um <em>Zettelkasten</em> próprio é justamente a capacidade de entender <strong>o mínimo</strong> que você precisa, e como aplicar para que suas notas trabalhem para você, e não contra você. <strong>Quanto menos você tiver, mais você ganha.</strong></p>
+<h2 id="a-origem-do-sistema-caótico-e-organizado">A origem do sistema caótico e organizado</h2>
+<p>O sistema foi criado por Niklas Luhmann, um sociologista alemão que mantinha em seu escritório uma caixa física cheia de notas retangulares que continham suas ideias e estudos.</p>
+<p>Não se assuste, você não irá precisar comprar uma caixa com gavetas e fazer o processo à mão. Existem programas e aplicativos que simulam essa experiência e trazem um ambiente muito mais amigável do que o método físico.</p>
+<p>Niklas usava o seu <em>Zettelkasten</em> para retomar ideias e escrever seus artigos, totalizando mais de 600 publicados e deixando mais de 100 não finalizados após sua morte.</p>
+<blockquote>
+<p>&ldquo;Niklas Luhmann era um cientista social altamente produtivo. Ele publicou 50 livros e mais de 600 artigos. Ele não conquistou isso sozinho. Ele tinha uma companhia bastante interessante.</p>
+<p>Também há mais de 150 manuscritos inacabados deixados em sua propriedade. Pelo menos um deles é um texto de 1000 páginas. Então sua produtividade ultrapassou até mesmo seu já surpreendente corpo de trabalho publicado.&rdquo;</p>
+<p><em>Trecho traduzido do artigo <a href="https://zettelkasten.de/introduction/#a-zettelkasten-is-a-personal-tool-for-thinking-and-writing"><strong>Introduction to the Zettelkasten Method</strong></a>, escrito por Sascha.</em></p>
+</blockquote>
+<p>Apesar de suas notas serem guardadas dentro de várias gavetas, que a princípio não parecem organizadas, Luhmann atribuía números identificadores a cada nota. Esses números permitiam ao cientista poder referenciar notas em outras notas, e portanto criar uma teia mental de anotações e ideias.</p>
+<!-- raw HTML omitted -->
+<h2 id="guardando-ideias-em-notas-atômicas">Guardando ideias em notas atômicas</h2>
+<p>A base para todo o sistema são as notas atômicas. Mas o que raios é isso? Elas são documentos que tem o principal objetivo de apresentar uma <strong>única</strong> ideia. É a partir daqui que o <em>Zettelkasten</em> encontra sua fonte primária para introduzir a conexão entre notas.</p>
+<p>Quando focamos uma ideia por nota, abrimos espaço para poder relacionar diferentes áreas da nossa vida. De vez em quando, ao revisar a sua teia de notas, você verá que assuntos que você via ontem como completamente distintos podem ser relacionados.</p>
+<p>Por única ideia, não me refiro a um único parágrafo ou um único tópico de lista, mas sim a ideia principal por trás de um pensamento ou fato lido. Estamos sempre tendo ideias e pensamentos, assim como sempre lemos algo novo todos os dias. Ao praticar identificar o tópico principal de uma parte do texto ou do pensamento, poderemos atomizar e criar diversas notas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span># Pandas é uma biblioteca que estende o Python
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Apesar de ser uma biblioteca, ela é muito importante para quem
+</span></span><span style="display:flex;"><span>trabalha em um setor que envolve a manipulação e o estudo de
+</span></span><span style="display:flex;"><span>dados.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Ela trás uma abordagem amigável, porém poderosa, que automatiza
+</span></span><span style="display:flex;"><span>diversas tarefas de leitura, estruturação, inclusão, exclusão e
+</span></span><span style="display:flex;"><span>atualização de dados em diversos formatos existentes.
+</span></span></code></pre></div><p>Este texto acima é uma nota real do meu próprio <em>Zettelkasten</em>. Ela apresenta 2 parágrafos, porém a ideia principal é explicar o <strong>porquê</strong> do Pandas estender a linguagem Python.</p>
+<h2 id="tornando-as-notas-identificáveis">Tornando as notas identificáveis</h2>
+<p>Como parte crucial do sistema <em>Zettelkasten</em>, todas as notas devem ser identificáveis atravéis de algum número ou texto. As formas mais comuns, que eu encontrei, foram utilizando o título do arquivo, ou usando um <em>timestamp</em> (que é o que eu uso).</p>
+<p>Por exemplo, no meu sistema eu utilizo um <em>timestamp</em> com o seguinte formato: <code>'N'YYYYMMDDHHmm</code>, isto é: <code>'N' + ano + mês + dia + hora + minuto</code>. Esses números são gerados automaticamente pelo <em>Obsidian</em>, software que uso, e não recomendo que fique os escrevendo manualmente. É uma tarefa tediosa e não muito útil.</p>
+<p>A vantagem de utilizar um identificador é justamente que a nota poderá facilmente ser mencionada em outras notas. A conexão entre notas permite relacionar notas distintas, e isto será o próximo tópico deste artigo.</p>
+<!-- raw HTML omitted -->
+<h2 id="estabelecendo-conexões-entre-as-notas">Estabelecendo conexões entre as notas</h2>
+<p>As conexões são simples <em>links</em> presentes nas notas que ligam uma nota <code>A</code> com notas <code>B</code>, <code>C</code>, e por aí vai. Isto é variável de sistema para sistema, mas a forma mais básica de criar uma, é simplesmente inserir o identificador da nota a ser referenciada no conteúdo da nota atual.</p>
+<p>Como você conecta notas, é aberto a sua escolha. No meu <em>Zettelkasten</em>, utilizo a tática de <strong>parágrafo de suporte</strong> (um parágrafo que contextualiza a conexão) e <strong>tabela de contéudos</strong> (como em um livro ou artigo).</p>
+<h3 id="conectando-notas-com-parágrafos-de-suporte">Conectando notas com parágrafos de suporte</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span># Atualizando uma nota no Zettelkasten
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Uma informação contida em uma nota nem sempre irá manter sua
+</span></span><span style="display:flex;"><span>versão original. As ideias <span style="font-weight:bold">**são e devem sempre ser revisadas**</span>
+</span></span><span style="display:flex;"><span>pois as conexões neurais sempre mudam.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>A atualização deve ser feita de forma controlada, ao ponto de não
+</span></span><span style="display:flex;"><span>quebrar os <span style="font-weight:bold">**parágrafos de suporte**</span> em suas notas conectadas.
+</span></span><span style="display:flex;"><span>Caso isso aconteça, a nota irá perder o seu valor, e isso pode
+</span></span><span style="display:flex;"><span>trazer uma ruptura de ideias (N202311171816).
+</span></span></code></pre></div><p><em>A nota acima foi tomada do meu Obsidian, e adaptada para ficar mais legível para o artigo.</em></p>
+<p>O segundo parágrafo, como podem ver, possui um identificador para uma outra nota. Essa nota referenciada se aprofunda mais no conteúdo sobre <strong>ruptura de ideias</strong> explorado no parágrafo. Portanto, ele é um <strong>parágrafo de suporte</strong> para contextualizar e conectar as duas notas.</p>
+<h3 id="conectando-notas-com-tabelas-de-conteúdo">Conectando notas com tabelas de conteúdo</h3>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fhv3nyisrjnbi38hf0bs.png" alt="nota sobre zettelkasten no obsidian usando uma tabela de contéudo"></p>
+<p>A nota acima é um trabalho em progresso meu onde eu construo um guia para me guiar no meu sistema (e inclusive isto será abordado mais a frente no artigo). Eu utilizo termos e estruturas que eu estou criando para poder manter uma consistência e uma organização, <strong>jamais um completo caos</strong>.</p>
+<p>A tabela de conteúdos pode ser simples, como um mero:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Título da nota: (N202311171731)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Título da nota 2: (N202311171727)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> ...
+</span></span></code></pre></div><p>O importante é conectar de forma genérica duas ou mais notas. Aqui, nenhum contexto está sendo dado, elas apenas estão relacionadas, e pronto. Com ela você pode criar <strong>clusters</strong> (notas que agrupam outras notas para organização).</p>
+<p>Quanto à nomenclatura de um <em>cluster</em>, isto é bem subjetivo. Existem pessoas que utilizam uma sentença como título, ou eu, que uso apenas a palavra ou a expressão mesmo, assim como mostrei na imagem acima.</p>
+<h2 id="comece-agora-a-fazer-o-seu-guia">Comece agora a fazer o seu guia!</h2>
+<p>Nada melhor do que exercitar a mente e utilizar um sistema completamente novo, sem saber absolutamente nada. Nesta etapa, o seu objetivo é&hellip; <strong>experimentar qualquer coisa!</strong></p>
+<p>Um dos mantras do <em>Zettelkasten</em>, assim como eu disse no começo desse artigo, é que todo sistema é único. Portanto, você só irá saber o que funciona para você se você soltar os cachorros e deixar a festa acontecer.</p>
+<!-- raw HTML omitted -->
+<h3 id="1-anote-tudo-tudo-tudo">1. Anote tudo, tudo, tudo!</h3>
+<p>Pegue um arquivo do Notepad e coloque o título &ldquo;Zettelkasten&rdquo; e comece a escrever <strong>tudo</strong> o que você lembra que foi lido deste artigo, ou vá atrás de outras materiais, e anote tudo neste único documento.</p>
+<p>Esqueça sobre <em>softwares</em> poderosos, que trazem ferramentas X, Y e Z. Foque na ideia da anotação. Faça por bullet point, parágrafo, palavras chaves, você quem decide.</p>
+<pre tabindex="0"><code>Zettelkasten
+
+- Sistema próprio de anotações.
+- Utiliza notas e anotações para organizar ideias.
+- Criado por Niklas Luhmann.
+- Notas precisam ter identificadores: (YYYYMMDDHHmm).
+- Conexões entre notas são criadas através dos identificadores.
+...
+</code></pre><h3 id="2-identifique-possíveis-conexões-e-anote">2. Identifique possíveis conexões e anote</h3>
+<p>Agora que você possui tudo anotado, tente buscar por possíveis conexões entre os tópicos, palavras ou parágrafos. É incrível perceber como simples tópicos podem ser abertos para muitas mais ideias, ou servir de ponte para conectar outras duas ideias.</p>
+<pre tabindex="0"><code>Zettelkasten -&gt; Luhmann -&gt; Artigos -&gt; Sociologia -&gt; ...
+Notas -&gt; Estudos -&gt; Ideias -&gt; Fatos  -&gt; ...
+Conexões -&gt; Identificadores -&gt; ...
+</code></pre><h3 id="3-crie-notas-para-cada-conexão-importante">3. Crie notas para cada conexão importante</h3>
+<p>Essa etapa em si, é repetitiva, e pode abrir portas para mais notas futuras. <strong>Não se perca!</strong> Menos é mais, e ficar criando mais e mais notas no mesmo dia não vai tornar o seu <em>Zettelkasten</em> útil, mas sim um amalgamo de notas. Vá aos poucos.</p>
+<p>Agora que você possui os conteúdos, e as possíveis conexões estabelecidas, você pode criar notas e ir atrás de <strong>referências</strong> para darem ênfase à sua nota, sejam elas vídeos, artigos ou até livros.</p>
+<pre tabindex="0"><code># Niklas Luhmann inventou o Zettelkasten para escrever artigos.
+
+O sociólogo alemão Niklas Luhmann, criou o Zettelkasten para que
+pudesse escrever seus artigos.
+
+Ele possuía mais de 90 mil notas em sua gaveta (202312021846).
+</code></pre><p>O segundo parágrafo foi criado para contextualizar a ideia de que o Niklas tinha mais de 90 mil notas guardadas, e então <em>linkar</em> a nota em si. Essa nota referenciada pode introduzir outros <strong>parágrafos de suporte</strong> para conectar notas que expliquem, por exemplo, como ele tinha tantas notas.</p>
+<h3 id="4-pause-e-continue-amanhã">4. Pause, e continue amanhã!</h3>
+<p>Vamos lá gente, uma pausa sempre é bem vinda. E neste caso, ela é crucial, por que o seu cérebro <strong>não</strong> está acostumado com anotações neste estilo.</p>
+<p>Beba água, levante, vá jogar. Faça qualquer coisa que não seja mais tocar nessas notas! Amanhã acorde, realize sua rotina e volte a analisar as notas, você irá perceber que algumas ideias estarão mais consolidadas na sua cabeça e outras ideias aparecerão para ampliar sua visão sobre o Zettelkasten. E se não acontecer, continue se esforçando!</p>
+<h2 id="utilizando-softwares-para-auxiliar-no-processo">Utilizando softwares para auxiliar no processo</h2>
+<p>A melhor vantagem dos tempos modernos é justamente os computadores, e para a criação de um <em>Zettelkasten</em> existem vários aplicativos e programas que o auxiliam.</p>
+<p>Como utilizo bastante o <a href="https://obsidian.md/">Obsidian</a> para manter meu sistema, é este mesmo que falarei mais sobre, porém existem outros com diferentes ecossistemas que valem a pena explorar.</p>
+<p>O <em>Obsidian</em> é bastante conhecido como um &ldquo;segundo cérebro&rdquo;, porém pessoalmente não gosto dessa nomenclatura pois ferramentas estão aqui para acelerar nosso trabalho, não ser nossa <strong>estratégia</strong>. Quanto mais você se prender a uma ferramenta, mais você irá precisar dela e ficará muito difícil de experimentar outras. Tome meu conselho.</p>
+<p>No entanto, um ponto muito interessante sobre essa ferramenta é que ela foi desenhada especialmente para suportar a conexão entre as notas, e faz isso muito bem, com apresentação delas através de um gráfico que podemos analisar visualmente para criar novas notas e conexões.</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6d3ne8722uz6yhzn90ce.png" alt="gráfico de notas do obsidian"></p>
+<p>É uma ferramenta que pode muito bem lhe ajudar, porém não fique preso somente a ela por que eu recomendei, você pode ir atrás de outras como <a href="https://www.notion.so/pt-br">Notion</a>, <a href="https://tiddlywiki.com/">TiddlyWiki</a>, <a href="https://roamresearch.com/">Roam</a>, entre outras. O importante é utilizar aquela que mais se sente confortável e se aplica à sua estratégia de anotação.</p>
+<p>Por muito tempo, utilizei o bloco de notas da Microsoft como minha ferramenta de anotação, que gradualmente estou migrando para o Obsidian. Então trazer suas outras anotações para o <em>Zettelkasten</em> é uma ótima forma de reter aquelas informações que você deixa engavetadas. ;)</p>
+<h2 id="conclusão">Conclusão</h2>
+<p>Muito obrigado por me acompanhar até o final deste artigo. Eu sei, é muita coisa, e muita informação. Isto aqui foi apenas a ponta do Iceberg do que o seu <em>Zettelkasten</em> pode se tornar caso se dedique e mantenha uma consistência.</p>
+<p>Um site que eu recomendo muito para aprender mais e discutir sobre o <em>Zettelkasten</em> é o <a href="https://zettelkasten.de/">zettelkasten.de</a>. Ele foi a minha principal fonte de aprendizado do sistema inteiro, além de que já participei do fórum e recebi ajuda dos administradores e usuários, então vale muito apena caso queira se aprofundar.</p>
+<p>Ah! E não mergulhe naqueles vídeos do YouTube que mostram gráficos enormes, bonitos, ou um Obsidian cheio de plugins. <strong>Isso tudo não passa de fantasia.</strong> Quanto menos, melhor. Siga sempre esta filosofia que você terá mais chances de não abandonar o sistema.</p>
+<!-- raw HTML omitted -->
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#introdução">Introdução</a></li>
+        <li><a href="#o-que-esperar-deste-artigo">O que esperar deste artigo?</a></li>
+        <li><a href="#apresentando-o-sistema-zettelkasten">Apresentando o sistema Zettelkasten</a></li>
+        <li><a href="#a-origem-do-sistema-caótico-e-organizado">A origem do sistema caótico e organizado</a></li>
+        <li><a href="#guardando-ideias-em-notas-atômicas">Guardando ideias em notas atômicas</a></li>
+        <li><a href="#tornando-as-notas-identificáveis">Tornando as notas identificáveis</a></li>
+        <li><a href="#estabelecendo-conexões-entre-as-notas">Estabelecendo conexões entre as notas</a>
+          <ul>
+            <li><a href="#conectando-notas-com-parágrafos-de-suporte">Conectando notas com parágrafos de suporte</a></li>
+            <li><a href="#conectando-notas-com-tabelas-de-conteúdo">Conectando notas com tabelas de conteúdo</a></li>
+          </ul>
+        </li>
+        <li><a href="#comece-agora-a-fazer-o-seu-guia">Comece agora a fazer o seu guia!</a>
+          <ul>
+            <li><a href="#1-anote-tudo-tudo-tudo">1. Anote tudo, tudo, tudo!</a></li>
+            <li><a href="#2-identifique-possíveis-conexões-e-anote">2. Identifique possíveis conexões e anote</a></li>
+            <li><a href="#3-crie-notas-para-cada-conexão-importante">3. Crie notas para cada conexão importante</a></li>
+            <li><a href="#4-pause-e-continue-amanhã">4. Pause, e continue amanhã!</a></li>
+          </ul>
+        </li>
+        <li><a href="#utilizando-softwares-para-auxiliar-no-processo">Utilizando softwares para auxiliar no processo</a></li>
+        <li><a href="#conclusão">Conclusão</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+    
+
+        </main><footer class="footer">
+    
+    
+        <script src="/js/custom.js"></script>
+    <div style="margin-bottom: 16px; font-size: 0.75rem;">
+        <a href="/projects/">Veja meus Projetos</a> |
+        <a href="/contact/">Entre em Contato</a>
+    </div>
+    
+    
+
+    
+    <span>
+        Feito com &#10084;&#65039; usando <img src="/imgs/hugo.png" style="vertical-align: middle;" ><br style="margin-bottom: 12px;">Tema: <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

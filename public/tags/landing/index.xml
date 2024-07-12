@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Landing on João Iacillo</title>
+    <link>http://localhost:1313/tags/landing/</link>
+    <description>Recent content in Landing on João Iacillo</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Tue, 26 Mar 2024 03:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/landing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Landing Page - Legacy Leilões</title>
+      <link>http://localhost:1313/projects/legacy-leiloes-lp/</link>
+      <pubDate>Tue, 26 Mar 2024 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/legacy-leiloes-lp/</guid>
+      <description>Landing page criada para a empresa Legacy Leilões. Apresentando múltiplas seções com layouts e designs distintos, além de ser responsiva, bem otimizada e possuir animações simples que enchem a página.</description>
+    </item>
+  </channel>
+</rss>

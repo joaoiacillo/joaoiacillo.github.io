@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on João Iacillo</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on João Iacillo</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Tue, 12 Dec 2023 03:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criando um Zettelkasten para organizar suas ideias</title>
+      <link>http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/</link>
+      <pubDate>Tue, 12 Dec 2023 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/</guid>
+      <description>Todos sabemos que hoje em dia estamos rodeados por uma imensa carga de informações. O problema disso? Nosso cérebro ainda não é capaz de armazenar tudo o que vemos diariamente, e isto pode levar a perda de ideias cruciais e criativas. Então, como podemos resolver isso? O Zettelkasten trás uma solução.&#xA;Introdução Como eu mencionei acima, vivemos em um mundo onde somos bombardeados constantemente pela enorme diversidade de conteúdos, que muitas das vezes não trazem vantagens para nossas vidas.</description>
+    </item>
+    <item>
+      <title>Comecando nos Estudos de Data Science com Python e Pandas</title>
+      <link>http://localhost:1313/blog/comecando-estudos-data-science-python-pandas/</link>
+      <pubDate>Fri, 24 Nov 2023 15:02:33 +0000</pubDate>
+      <guid>http://localhost:1313/blog/comecando-estudos-data-science-python-pandas/</guid>
+      <description>Entrar no universo de data science vem se tornando cada vez fácil. Isto pois há uma crescente implementação neste mercado de bibliotecas e linguagens de alto-nível, como o Pandas e o Python, para que a manipulação de um alto número de dados não se torne uma tarefa complicada.&#xA;Introdução Como um programador web venho dedicando meu tempo ao estudo de tecnologias relacionadas a front-end. No entanto, percebi que uma das linguagens que me introduziram à programação estava empoeirada na minha estante, o Python.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on João Iacillo</title>
+    <link>http://localhost:1313/tags/learning/</link>
+    <description>Recent content in Learning on João Iacillo</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Tue, 12 Dec 2023 03:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criando um Zettelkasten para organizar suas ideias</title>
+      <link>http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/</link>
+      <pubDate>Tue, 12 Dec 2023 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/criando-zettelkasten-organizar-ideias/</guid>
+      <description>Todos sabemos que hoje em dia estamos rodeados por uma imensa carga de informações. O problema disso? Nosso cérebro ainda não é capaz de armazenar tudo o que vemos diariamente, e isto pode levar a perda de ideias cruciais e criativas. Então, como podemos resolver isso? O Zettelkasten trás uma solução.&#xA;Introdução Como eu mencionei acima, vivemos em um mundo onde somos bombardeados constantemente pela enorme diversidade de conteúdos, que muitas das vezes não trazem vantagens para nossas vidas.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projetos on João Iacillo</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projetos on João Iacillo</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Sat, 29 Jun 2024 03:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Umotos - Mobile Web App</title>
+      <link>http://localhost:1313/projects/umotos/</link>
+      <pubDate>Sat, 29 Jun 2024 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/umotos/</guid>
+      <description>Aplicativo Web para celulares e computadores criado com Bootstrap. Plataforma de entregas mobile-first.&#xA;Fotos </description>
+    </item>
+    <item>
+      <title>Legacy Leilões</title>
+      <link>http://localhost:1313/projects/legacy-leiloes/</link>
+      <pubDate>Tue, 02 Apr 2024 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/legacy-leiloes/</guid>
+      <description>Conjunto de páginas criadas para a Legacy Leilões. Apresenta diversos componentes complexos e mistos para a criação de um ambiente completo, além de ser responsivo.</description>
+    </item>
+    <item>
+      <title>Landing Page - Legacy Leilões</title>
+      <link>http://localhost:1313/projects/legacy-leiloes-lp/</link>
+      <pubDate>Tue, 26 Mar 2024 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/legacy-leiloes-lp/</guid>
+      <description>Landing page criada para a empresa Legacy Leilões. Apresentando múltiplas seções com layouts e designs distintos, além de ser responsiva, bem otimizada e possuir animações simples que enchem a página.</description>
+    </item>
+    <item>
+      <title>Portfolio Purple Marketing</title>
+      <link>http://localhost:1313/projects/portfolio-purple-marketing/</link>
+      <pubDate>Thu, 28 Sep 2023 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/portfolio-purple-marketing/</guid>
+      <description>Portfolio criado para uma parente. O website é simples, direto e todas as imagens foram otimizadas para uma melhor experiência de usuário. É responsivo e todas as imagens podem ser &amp;ldquo;abertas&amp;rdquo; para uma melhor visualização.</description>
+    </item>
+    <item>
+      <title>Alura Desafio 7 Dias de HTML e CSS</title>
+      <link>http://localhost:1313/projects/alura-7days-html-css/</link>
+      <pubDate>Wed, 26 Apr 2023 03:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/alura-7days-html-css/</guid>
+      <description>Projeto simples realizado a muito tempo para praticar canvas e JavaScript. Ele possui um sistema bem básico de movimentação e &amp;ldquo;física&amp;rdquo; se puder chamar assim.&#xA;Um de seus principais defeitos é a inexistente randomização que o pad aplica sobre a bola, ou seja, os ângulos de direção sempre são os mesmos.</description>
+    </item>
+  </channel>
+</rss>
