@@ -41,7 +41,7 @@ theme= 'gokarna'
         name = 'Início'
         pageRef = '/'
         weight = 10
-        # pre = '<i class="bi bi-house"></i>'
+        pre = '<i class="bi bi-house"></i>'
     # [[menus.main]]
     #     name = 'Currículo'
     #     pageRef = '/resume'
@@ -51,19 +51,19 @@ theme= 'gokarna'
         name = 'Projetos'
         pageRef = '/projects'
         weight = 20
-        # pre = '<i class="bi bi-code-slash"></i>'
+        pre = '<i class="bi bi-code-slash"></i>'
     [[menus.main]]
-        name = 'Smallweb'
-        pageRef = '/smallweb'
+        name = 'Games'
+        pageRef = '/games'
         weight = 25
-        pre = '<i class="bi bi-cone-striped"></i>'
+        pre = '<i class="bi bi-controller"></i>'
     [[menus.main]]
-        name = 'Dev.to'
-        url = 'https://dev.to/iacillodev'
+        name = 'Blog'
+        url = 'https://iacillo.bearblog.dev/'
         weight = 30
-        pre = '<i class="bi bi-box-arrow-up-right"></i>'
+        pre = '<i class="bi bi-rss"></i>'
     [[menus.main]]
         name = 'Contato'
         pageRef = '/contact'
         weight = 40
-        pre = '<i class="bi bi-telephone"></i>'
+        pre = '<i class="bi bi-envelope-at"></i>'
